@@ -13,3 +13,16 @@ This project contains custom infrastructure automation modules designed to deplo
 
 ## 📁 Folder Structure
 
+infra-app-module/
+├── modules/ # Custom reusable infrastructure modules
+│ ├── ec2/
+│ ├── s3/
+│ ├── rds/
+│ └── ...
+├── environments/ # Environment-specific configuration
+│ ├── dev/
+│ ├── staging/
+│ └── prod/
+├── main.tf # Terraform entry point
+├── variables.tf # Global variables
+├── outputs.tf # Output variables
